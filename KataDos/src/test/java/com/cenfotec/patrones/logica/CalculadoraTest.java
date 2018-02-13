@@ -17,4 +17,10 @@ public class CalculadoraTest {
 		Calculadora calc = new Calculadora();
 		assertEquals(2, calc.generate(2));
 	}
+	
+	@Test 
+	public void pruebaIntVariosFactoresPrimos() {
+		Calculadora calc = new Calculadora();
+		assertEquals(2+"*"+2, calc.generate(4));
+	}
 }
