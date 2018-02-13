@@ -11,4 +11,10 @@ public class CalculadoraTest {
 		Calculadora calc = new Calculadora();
 		assertEquals(0, calc.generate(0));
 	}
+	
+	@Test 
+	public void pruebaInt() {
+		Calculadora calc = new Calculadora();
+		assertEquals(2, calc.generate(2));
+	}
 }
