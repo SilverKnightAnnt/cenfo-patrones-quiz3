@@ -11,8 +11,8 @@ public class KataDosApplication {
 	static Calculadora calc = new Calculadora();
 	public static void main(String[] args) {
 		
-		 int factor = calc.generate(2);
-		   System.out.print(2+"=");
+		 int factor = calc.generate(4);
+		   System.out.print(4+"=");
 		   System.out.print(factor);
 	}
 }
